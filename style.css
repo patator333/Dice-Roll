@@ -1,0 +1,63 @@
+#global_box{
+    font-family: Lato;
+    height:600px;
+}
+
+#box_joueur1,#box_joueur2{
+    text-align: center;
+    position: relative;
+}
+#texte_joueur1,#texte_joueur2 {
+    margin-top: 20%;
+    margin-left: 25%;
+    width: 50%;
+}
+
+#score_global_joueur1,#score_global_joueur2 {
+    color: red;
+    font-size: 35px;
+    margin-top: 30%;
+    margin-left: 25%;
+    width: 50%;
+}
+
+#box_current_joueur1, #box_current_joueur2{
+    font-size: 20px;
+    margin-top: 30%;
+    margin-left: 32%; 
+    width:35%; 
+    height:15%;
+    background-color: rgb(182, 29, 29);
+
+}
+#score_round_joueur1, #score_round_joueur2{
+    color:white;
+}
+
+#new_game{
+    position:absolute;
+    top:10%;
+    left: 40%;
+    z-index: 1000;
+}
+#img_des {
+    position: absolute;
+    top: 25%;
+    left: 40%;
+    width: 75px;
+    height: 75px;
+    z-index: 1000;
+}
+
+#roll_dice{
+    position: absolute;
+    top:35%;
+    left:40%;
+}
+
+#add_score{
+    position: absolute;
+    top:45%;
+    left:40%;
+}
+
